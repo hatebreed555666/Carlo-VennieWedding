@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Jon Carlo & Vennie Ann | Wedding Invitation</title>
+<title>Jon Carlo & Vennie Ann | Dark Elegance</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -30,7 +30,7 @@ h1,h2,h3{font-family:"Cormorant Garamond",serif;font-weight:500}
 /* HERO */
 .hero{min-height:100vh;display:grid;place-items:center;text-align:center;overflow:hidden;background:
 linear-gradient(90deg,rgba(8,9,11,.88),rgba(8,9,11,.56),rgba(8,9,11,.84)),
-url("370.jpg") center/cover no-repeat}
+url("carl_1.jpg") center/cover no-repeat}
 .hero:before{content:"";position:absolute;inset:18px;border:1px solid rgba(217,195,154,.35)}
 .hero-content{position:relative;z-index:2;padding:90px 20px}
 .hero .names{font-family:"Great Vibes",cursive;font-size:clamp(78px,12vw,170px);line-height:.78;margin:24px 0;color:#f7f1e7;text-shadow:0 12px 35px rgba(0,0,0,.45)}
@@ -45,7 +45,7 @@ url("370.jpg") center/cover no-repeat}
 .hero{
  background:
  linear-gradient(90deg,rgba(10,18,28,.88),rgba(34,53,69,.54),rgba(10,18,28,.88)),
- url("370.jpg") center/cover no-repeat;
+ url("carl_1.jpg") center/cover no-repeat;
 }
 .hero .names{
  display:flex;flex-direction:column;align-items:center;gap:6px;
@@ -78,9 +78,9 @@ url("370.jpg") center/cover no-repeat}
 .slide{position:absolute;inset:0;opacity:0;transform:scale(1.08);transition:opacity 1.15s ease,transform 1.8s cubic-bezier(.2,.7,.2,1);overflow:hidden;border:1px solid var(--line)}
 .slide.active{opacity:1;transform:scale(1)}
 .slide::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 50%,rgba(0,0,0,.72))}
-.slide.one{background:url("370.jpg") center/cover no-repeat}
-.slide.two{background:url("371.jpg") center/cover no-repeat}
-.slide.three{background:url("372.jpg") center/cover no-repeat}
+.slide.one{background:url("carl_1.jpg") center/cover no-repeat}
+.slide.two{background:url("carl_2.jpg") center/cover no-repeat}
+.slide.three{background:url("carl_3.jpg") center/cover no-repeat}
 .slide-copy{position:absolute;z-index:2;left:9%;bottom:10%;max-width:500px}
 .slide-copy span{font-size:10px;letter-spacing:.25em;text-transform:uppercase;color:var(--champ)}
 .slide-copy h3{font-size:54px;margin:10px 0 0}
@@ -90,9 +90,9 @@ url("370.jpg") center/cover no-repeat}
 .gallery-thumbs{display:flex;gap:14px;margin-top:18px;justify-content:center}
 .thumb{width:95px;height:70px;border:1px solid transparent;opacity:.5;cursor:pointer;background-size:cover;background-position:center}
 .thumb.active{opacity:1;border-color:var(--champ)}
-.thumb:nth-child(1){background-image:url("370.jpg")}
-.thumb:nth-child(2){background-image:url("371.jpg")}
-.thumb:nth-child(3){background-image:url("372.jpg")}
+.thumb:nth-child(1){background-image:url("carl_1.jpg")}
+.thumb:nth-child(2){background-image:url("carl_2.jpg")}
+.thumb:nth-child(3){background-image:url("carl_3.jpg")}
 
 /* STORY */
 .story{padding:130px 0;background:#10171e}
@@ -146,20 +146,6 @@ url("370.jpg") center/cover no-repeat}
 .final-card h3{font-size:34px;letter-spacing:.08em;margin:15px 0 10px;color:#f5f8fa}
 .final-card p{font-family:"Cormorant Garamond",serif;font-size:22px;line-height:1.55;color:#d7e0e7;margin:0}
 
-/* ===== SUPPLIED PHOTO INTEGRATION ===== */
-.gallery-thumbs{flex-wrap:wrap;max-width:1120px;margin-left:auto;margin-right:auto}
-.gallery-thumbs .thumb{border-radius:2px}
-.closing-photo{position:relative;margin-top:42px;min-height:680px;border:1px solid var(--line);overflow:hidden;background:linear-gradient(180deg,rgba(20,35,45,.05),rgba(20,35,45,.55)),url("carl_3(2).jpg") center/cover no-repeat;display:flex;align-items:flex-end;justify-content:center;box-shadow:0 20px 60px rgba(91,118,135,.16)}
-.closing-photo:before{content:"";position:absolute;inset:16px;border:1px solid rgba(255,255,255,.42);pointer-events:none}
-.closing-photo-overlay{position:relative;z-index:1;width:min(820px,92%);text-align:center;color:white;padding:90px 26px 64px;text-shadow:0 4px 24px rgba(0,0,0,.42)}
-.closing-photo-overlay .kicker{color:#eef7fb}
-.closing-photo-overlay h2{font-size:clamp(38px,5vw,64px);margin:8px 0 24px;font-family:"Great Vibes",cursive;font-weight:400;line-height:1.05}
-.closing-photo-overlay .verse{font-family:"Cormorant Garamond",serif;font-size:clamp(23px,2.4vw,31px);line-height:1.42;letter-spacing:.01em;margin:0 auto 12px;color:white;font-style:italic;max-width:760px}
-.closing-photo-overlay .verse-ref{font-family:"Montserrat",sans-serif;font-size:12px;letter-spacing:.22em;text-transform:uppercase;margin:0 0 48px;color:#eef7fb}
-.closing-photo-overlay .closing-names{font-family:"Cormorant Garamond",serif;font-size:clamp(24px,2.5vw,31px);letter-spacing:.14em;margin:0 0 10px;color:white}
-.closing-photo-overlay .closing-date{font-family:"Montserrat",sans-serif;font-size:14px;letter-spacing:.3em;margin:0;color:#eef7fb}
-@media(max-width:850px){.closing-photo{min-height:520px}.gallery-thumbs{gap:10px}.gallery-thumbs .thumb{width:78px;height:58px}}
-
 @media(max-width:850px){
  .story-grid,.detail-grid,.parents,.sponsors,.toprow,.party,.final-grid{grid-template-columns:1fr}
  .gallery-stage{height:480px}.story-photo{min-height:430px}
@@ -174,7 +160,7 @@ body{background:#eef4f8;color:#536979}
 .hero{
  background:
  linear-gradient(90deg,rgba(235,244,249,.90),rgba(214,229,238,.54),rgba(235,244,249,.88)),
- url("370.jpg") center/cover no-repeat;
+ url("carl_1.jpg") center/cover no-repeat;
 }
 .hero:before{border-color:rgba(112,143,162,.42)}
 .hero .names{color:#526d7f;text-shadow:0 10px 28px rgba(82,109,127,.14)}
@@ -274,83 +260,227 @@ body{background:#eef4f8;color:#536979}
 }
 
 
-
-/* ===== ROMANTIC SECTION TRANSITIONS ===== */
-/* Soft cinematic reveal for every major chapter without changing the layout */
-section:not(.hero) .wrap,
-section:not(.hero) .story-grid{
-  opacity:0;
-  transform:translateY(34px) scale(.985);
-  filter:blur(4px);
-  transition:
-    opacity 1.15s cubic-bezier(.22,.61,.36,1),
-    transform 1.35s cubic-bezier(.16,1,.3,1),
-    filter 1.15s ease;
+/* ===== CINEMATIC LANDING + MOBILE-FIRST FINAL REFINEMENTS ===== */
+.hero{
+  min-height:100svh;
+  min-height:100vh;
+  display:flex;
+  align-items:flex-end;
+  justify-content:center;
+  text-align:center;
+  isolation:isolate;
+  background:
+    linear-gradient(180deg,
+      rgba(255,255,255,.04) 0%,
+      rgba(255,255,255,.04) 42%,
+      rgba(238,244,248,.34) 58%,
+      rgba(238,244,248,.94) 77%,
+      #eef4f8 100%),
+    url("carl_1.jpg") center 30%/cover no-repeat !important;
 }
-section:not(.hero).is-visible .wrap,
-section:not(.hero).is-visible .story-grid{
-  opacity:1;
-  transform:none;
-  filter:blur(0);
-}
-
-/* Gentle stagger inside each section */
-.is-visible .section-head,
-.is-visible .gallery-head,
-.is-visible .story-photo,
-.is-visible .story-copy,
-.is-visible .detail,
-.is-visible .ent-page,
-.is-visible .final-card,
-.is-visible .closing-photo,
-.is-visible .intro h2,
-.is-visible .intro p,
-.is-visible .intro .rule{
-  animation:romanticRise .9s cubic-bezier(.16,1,.3,1) both;
-}
-.is-visible .story-photo{animation-delay:.10s}
-.is-visible .story-copy{animation-delay:.20s}
-.is-visible .detail:nth-child(1){animation-delay:.05s}
-.is-visible .detail:nth-child(2){animation-delay:.13s}
-.is-visible .detail:nth-child(3){animation-delay:.21s}
-.is-visible .final-card:nth-child(1){animation-delay:.08s}
-.is-visible .final-card:nth-child(2){animation-delay:.16s}
-.is-visible .final-card:nth-child(3){animation-delay:.24s}
-.is-visible .closing-photo{animation-delay:.18s}
-
-@keyframes romanticRise{
-  from{opacity:0;transform:translateY(26px);filter:blur(3px)}
-  to{opacity:1;transform:translateY(0);filter:blur(0)}
-}
-
-/* Cinematic transition veil between chapters */
-section:not(.hero):before{
+.hero:after{
   content:"";
   position:absolute;
-  left:8%; right:8%; top:-1px;
-  height:110px;
-  pointer-events:none;
-  background:linear-gradient(180deg,rgba(255,255,255,0),rgba(255,255,255,.18),rgba(255,255,255,0));
-  opacity:.55;
-  transform:translateY(-30px);
-  transition:transform 1.4s cubic-bezier(.16,1,.3,1),opacity 1s ease;
+  inset:0;
+  z-index:-1;
+  background:linear-gradient(90deg,rgba(83,105,121,.08),transparent 40%,rgba(83,105,121,.08));
 }
-section:not(.hero).is-visible:before{transform:translateY(0);opacity:1}
+.hero-content{
+  width:min(980px,100%);
+  padding:42px 28px 78px;
+  margin:0 auto;
+  transform:none;
+}
+.hero .kicker{
+  color:#718a9b;
+  text-shadow:0 1px 0 rgba(255,255,255,.7);
+}
+.hero .names{
+  margin:12px auto 18px;
+  color:#405b6d;
+  text-shadow:0 8px 22px rgba(255,255,255,.72);
+}
+.hero .date{
+  margin-top:18px;
+  font-size:clamp(18px,2vw,25px);
+  color:#405b6d;
+}
+.hero .place{color:#5f7889}
+.hero .rule{margin:16px 0}
+.hero .scroll{
+  bottom:18px;
+  color:#60798b;
+}
 
-/* Final photo receives a slower, more cinematic entrance */
-.closing-photo{transform-origin:center center}
-.is-visible .closing-photo-overlay{
-  animation:closingReveal 1.6s cubic-bezier(.16,1,.3,1) .55s both;
+/* Romantic reveal as sections enter the screen */
+.reveal{
+  opacity:0;
+  transform:translateY(34px);
+  transition:opacity .9s ease, transform .9s cubic-bezier(.2,.75,.2,1);
 }
-@keyframes closingReveal{
-  from{opacity:0;transform:translateY(24px) scale(.98)}
-  to{opacity:1;transform:none}
+.reveal.in-view{opacity:1;transform:none}
+
+/* Selected story photo */
+.story-photo{
+  background-position:center;
 }
 
-/* Respect accessibility preferences */
-@media (prefers-reduced-motion:reduce){
-  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
-  section:not(.hero) .wrap,section:not(.hero) .story-grid{opacity:1;transform:none;filter:none}
+/* Final cinematic ending */
+.thank-you{
+  padding:0 0 110px;
+  background:linear-gradient(180deg,#ffffff,#eaf2f7);
+}
+.thank-you-frame{
+  background:#fff;
+  border:1px solid rgba(111,139,157,.26);
+  box-shadow:0 24px 70px rgba(91,118,135,.13);
+  overflow:hidden;
+}
+.thank-you-photo{
+  min-height:660px;
+  background:
+    linear-gradient(180deg,rgba(18,35,45,.02),rgba(18,35,45,.12)),
+    url("final_photo.jpg") center/cover no-repeat;
+}
+.thank-you-copy{
+  padding:70px 10%;
+  text-align:center;
+  background:linear-gradient(180deg,#ffffff,#f2f7fa);
+}
+.thank-you-copy h2{
+  margin:8px 0 12px;
+  font-size:clamp(52px,7vw,92px);
+  line-height:.92;
+  color:#526d7f;
+}
+.verse{
+  max-width:780px;
+  margin:0 auto;
+  font-family:"Cormorant Garamond",serif;
+  font-size:clamp(22px,2.3vw,31px);
+  line-height:1.5;
+  color:#657b89;
+}
+.verse-ref{
+  margin:14px 0 36px;
+  font-size:12px;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  color:#7f9caf;
+}
+.thank-you-names{
+  font-family:"Cormorant Garamond",serif;
+  font-size:clamp(23px,3vw,34px);
+  letter-spacing:.16em;
+  color:#526d7f;
+}
+.thank-you-date{
+  margin-top:12px;
+  font-size:12px;
+  letter-spacing:.32em;
+  color:#7f9caf;
+}
+
+/* Better phone experience */
+@media(max-width:700px){
+  .wrap{width:min(100% - 28px,1220px)}
+  .hero{
+    min-height:100svh;
+    background:
+      linear-gradient(180deg,
+        rgba(255,255,255,0) 0%,
+        rgba(255,255,255,.02) 36%,
+        rgba(238,244,248,.58) 54%,
+        rgba(238,244,248,.98) 70%,
+        #eef4f8 100%),
+      url("carl_1.jpg") center 24%/cover no-repeat !important;
+  }
+  .hero:before{inset:10px}
+  .hero-content{
+    padding:30px 18px 64px;
+    width:100%;
+  }
+  .hero .kicker{font-size:8px;letter-spacing:.26em}
+  .hero .names{
+    font-size:clamp(58px,17vw,86px);
+    line-height:.78;
+    gap:3px;
+  }
+  .hero .and{font-size:.28em}
+  .hero .date{
+    margin-top:12px;
+    font-size:17px;
+    letter-spacing:.14em;
+  }
+  .hero .place{
+    font-size:8px;
+    line-height:1.7;
+    letter-spacing:.18em;
+    max-width:300px;
+    margin:10px auto 0;
+  }
+  .scroll{font-size:8px}
+
+  section.intro{padding:80px 0}
+  .intro p{font-size:22px;padding:0 4px}
+  .gallery-section{padding:76px 0 88px}
+  .gallery-stage{height:62svh;min-height:410px}
+  .slide-copy{left:7%;right:7%;bottom:8%}
+  .slide-copy h3{font-size:42px}
+  .gallery-thumbs{gap:8px}
+  .thumb{width:29vw;max-width:100px;height:62px}
+
+  .story{padding:74px 0}
+  .story-grid{border-radius:0}
+  .story-photo{min-height:76vw;background-position:center}
+  .story-copy{padding:52px 24px}
+  .story-copy h2{font-size:52px}
+  .story-item{padding:18px 0}
+  .story-item p{font-size:20px}
+
+  .details{padding:78px 0}
+  .detail{padding:34px 22px}
+  .detail h3{font-size:25px}
+  .detail p{font-size:20px}
+
+  .ent{padding:70px 0}
+  .ent-page{padding:38px 16px;margin-bottom:24px;min-height:auto}
+  .ent-page:before{inset:8px}
+  .ent-title{font-size:48px}
+  .ent-intro{font-size:20px}
+  .parents{gap:18px;margin:26px auto 30px}
+  .parent{padding:26px 14px}
+  .parent .name{font-size:21px}
+  .sponsors{gap:0}
+  .sponsor{font-size:19px;padding:8px 2px}
+  .honor{padding:22px 14px}
+  .honor h2{font-size:24px}
+  .roles .role{padding:20px 10px}
+  .group{padding:24px 14px}
+  .list{font-size:19px}
+  .roles.four .role h3{font-size:20px}
+
+  .final{padding:78px 0}
+  .final-grid{margin-top:30px}
+  .final-card{min-height:280px;padding:38px 20px}
+  .final-card p{font-size:20px}
+  .btn{margin-top:20px}
+
+  .thank-you{padding:0 0 76px}
+  .thank-you-photo{
+    min-height:115vw;
+    background-position:center;
+  }
+  .thank-you-copy{padding:54px 22px 62px}
+  .thank-you-copy h2{font-size:52px}
+  .verse{font-size:22px}
+  .thank-you-names{font-size:21px;letter-spacing:.1em;line-height:1.5}
+  .thank-you-date{font-size:10px;letter-spacing:.24em}
+}
+
+/* Reduce motion for accessibility */
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}
 }
 
 </style>
@@ -372,7 +502,7 @@ section:not(.hero).is-visible:before{transform:translateY(0);opacity:1}
  <div class="scroll">Scroll to begin ↓</div>
 </section>
 
-<section class="intro">
+<section class="intro reveal">
  <div class="wrap">
   <div class="kicker">A celebration of love</div>
   <h2>Our forever begins here.</h2>
@@ -381,38 +511,20 @@ section:not(.hero).is-visible:before{transform:translateY(0);opacity:1}
  </div>
 </section>
 
-<section class="gallery-section">
+<section class="gallery-section reveal">
  <div class="wrap">
   <div class="gallery-head"><div class="kicker">A glimpse of us</div><h2>OUR GALLERY</h2><div class="rule">✦</div></div>
   <div class="gallery-stage">
-   <div class="slide active" style="background-image:url('370.jpg')"><div class="slide-copy"><span>Chapter One</span><h3>Every story starts somewhere.</h3></div></div>
-   <div class="slide" style="background-image:url('371.jpg')"><div class="slide-copy"><span>Chapter Two</span><h3>Then, we found our way back.</h3></div></div>
-   <div class="slide" style="background-image:url('372.jpg')"><div class="slide-copy"><span>Chapter Three</span><h3>And now, forever.</h3></div></div>
-   <div class="slide" style="background-image:url('373.jpg')"><div class="slide-copy"><span>Little Moments</span><h3>The kind we want to remember forever.</h3></div></div>
-   <div class="slide" style="background-image:url('374.jpg')"><div class="slide-copy"><span>Our Journey</span><h3>Side by side, wherever life leads.</h3></div></div>
-   <div class="slide" style="background-image:url('375.jpg')"><div class="slide-copy"><span>Closer</span><h3>Home has always been with each other.</h3></div></div>
-   <div class="slide" style="background-image:url('376.jpg')"><div class="slide-copy"><span>Us</span><h3>Just as we are, and exactly where we belong.</h3></div></div>
-   <div class="slide" style="background-image:url('377.jpg')"><div class="slide-copy"><span>Everyday Magic</span><h3>Love in all the little moments.</h3></div></div>
-   <div class="slide" style="background-image:url('378.jpg')"><div class="slide-copy"><span>The Beginning</span><h3>A beautiful chapter before forever.</h3></div></div>
-   <div class="slide" style="background-image:url('JEP_0385.jpg')"><div class="slide-copy"><span>Forever</span><h3>And this is only the beginning.</h3></div></div>
+   <div class="slide one active"><div class="slide-copy"><span>Chapter One</span><h3>Every story starts somewhere.</h3></div></div>
+   <div class="slide two"><div class="slide-copy"><span>Chapter Two</span><h3>Then, we found our way back.</h3></div></div>
+   <div class="slide three"><div class="slide-copy"><span>Chapter Three</span><h3>And now, forever.</h3></div></div>
   </div>
-  <div class="gallery-controls"><button class="dot active"></button><button class="dot"></button><button class="dot"></button><button class="dot"></button><button class="dot"></button><button class="dot"></button><button class="dot"></button><button class="dot"></button><button class="dot"></button><button class="dot"></button></div>
-  <div class="gallery-thumbs">
-   <button class="thumb active" style="background-image:url('370.jpg')"></button>
-   <button class="thumb" style="background-image:url('371.jpg')"></button>
-   <button class="thumb" style="background-image:url('372.jpg')"></button>
-   <button class="thumb" style="background-image:url('373.jpg')"></button>
-   <button class="thumb" style="background-image:url('374.jpg')"></button>
-   <button class="thumb" style="background-image:url('375.jpg')"></button>
-   <button class="thumb" style="background-image:url('376.jpg')"></button>
-   <button class="thumb" style="background-image:url('377.jpg')"></button>
-   <button class="thumb" style="background-image:url('378.jpg')"></button>
-   <button class="thumb" style="background-image:url('JEP_0385.jpg')"></button>
-  </div>
+  <div class="gallery-controls"><button class="dot active"></button><button class="dot"></button><button class="dot"></button></div>
+  <div class="gallery-thumbs"><button class="thumb active"></button><button class="thumb"></button><button class="thumb"></button></div>
  </div>
 </section>
 
-<section class="story">
+<section class="story reveal">
  <div class="wrap">
   <div class="story-grid">
    <div class="story-photo"></div>
@@ -426,7 +538,7 @@ section:not(.hero).is-visible:before{transform:translateY(0);opacity:1}
  </div>
 </section>
 
-<section class="details">
+<section class="details reveal">
  <div class="wrap">
   <div class="section-head"><div class="kicker">Save the date</div><h2>THE CELEBRATION</h2><div class="rule">✦</div></div>
   <div class="detail-grid">
@@ -437,7 +549,7 @@ section:not(.hero).is-visible:before{transform:translateY(0);opacity:1}
  </div>
 </section>
 
-<section class="ent">
+<section class="ent reveal">
  <div class="wrap">
   <div class="ent-page">
    <div class="ent-content">
@@ -531,7 +643,7 @@ section:not(.hero).is-visible:before{transform:translateY(0);opacity:1}
  </div>
 </section>
 
-<section class="final">
+<section class="final reveal">
  <div class="wrap">
   <div class="section-head"><div class="kicker">The final details</div><h2>THE CELEBRATION</h2><div class="rule">✦</div></div>
   <div class="final-grid">
@@ -539,17 +651,25 @@ section:not(.hero).is-visible:before{transform:translateY(0);opacity:1}
    <div class="final-card"><div class="big">♢</div><h3>Attire</h3><p>Semi-formal or casual attire in light colors.<br><br>Come comfortable, elegant, and ready to celebrate.</p></div>
    <div class="final-card"><div class="big">✉</div><h3>Mailbox</h3><p>Leave us a heartfelt message and a memory for our wedding day.</p><a href="#" class="btn">Open the Mailbox</a></div>
   </div>
-  <div class="closing-photo" aria-label="Jon Carlo and Vennie Ann">
-    <div class="closing-photo-overlay">
-      <div class="kicker">With love</div>
-      <h2>Thank You for Being Part of Our Story</h2>
-      <p class="verse">“And above all these things put on love, which binds everything together in perfect harmony.”</p>
-      <p class="verse-ref">— Colossians 3:14</p>
-      <p class="closing-names">JON CARLO &amp; VENNIE ANN</p>
-      <p class="closing-date">10 • 10 • 2026</p>
+ </div>
+</section>
+
+
+<section class="thank-you bg-grain">
+  <div class="wrap">
+    <div class="thank-you-frame">
+      <div class="thank-you-photo"></div>
+      <div class="thank-you-copy">
+        <div class="kicker">With all our love</div>
+        <h2>Thank You for<br>Being Part of Our Story</h2>
+        <div class="rule">✦</div>
+        <p class="verse">“And above all these things put on love, which binds everything together in perfect harmony.”</p>
+        <p class="verse-ref">— Colossians 3:14</p>
+        <div class="thank-you-names">JON CARLO &amp; VENNIE ANN</div>
+        <div class="thank-you-date">10 • 10 • 2026</div>
+      </div>
     </div>
   </div>
- </div>
 </section>
 
 <script>
@@ -573,21 +693,29 @@ dots.forEach((d,i)=>d.addEventListener('click',()=>showSlide(i)));
 thumbs.forEach((t,i)=>t.addEventListener('click',()=>showSlide(i)));
 resetTimer();
 
-/* Romantic scroll reveal — keeps the original page structure intact */
-const romanticSections=[...document.querySelectorAll('section:not(.hero)')];
-if ('IntersectionObserver' in window){
-  const romanticObserver=new IntersectionObserver((entries)=>{
-    entries.forEach(entry=>{
-      if(entry.isIntersecting){
-        entry.target.classList.add('is-visible');
-        romanticObserver.unobserve(entry.target);
-      }
-    });
-  },{threshold:.16,rootMargin:'0px 0px -8% 0px'});
-  romanticSections.forEach(section=>romanticObserver.observe(section));
-}else{
-  romanticSections.forEach(section=>section.classList.add('is-visible'));
+// Elegant section reveals
+const revealItems=document.querySelectorAll('.reveal');
+const observer=new IntersectionObserver((entries)=>{
+  entries.forEach(entry=>{
+    if(entry.isIntersecting){
+      entry.target.classList.add('in-view');
+      observer.unobserve(entry.target);
+    }
+  });
+},{threshold:.12});
+revealItems.forEach(el=>observer.observe(el));
+
+// Swipe support for the gallery on phones
+let touchStartX=0;
+const stage=document.querySelector('.gallery-stage');
+if(stage){
+  stage.addEventListener('touchstart',e=>touchStartX=e.changedTouches[0].screenX,{passive:true});
+  stage.addEventListener('touchend',e=>{
+    const dx=e.changedTouches[0].screenX-touchStartX;
+    if(Math.abs(dx)>45) showSlide(current+(dx<0?1:-1));
+  },{passive:true});
 }
+
 </script>
 </body>
 </html>
